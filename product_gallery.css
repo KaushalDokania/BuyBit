@@ -1,0 +1,130 @@
+#full_page{
+	width: 1400px;
+	margin: 0 auto;
+	border: 2px solid red;
+}
+#gallery_main_div {
+	margin: 5px;
+	width: 1200px;
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	border: 5px solid black;
+}
+#main_container{
+	margin-right: auto;
+	display: inline-block;
+	width: 1150px; 
+	margin-left: 0; 
+	border: 2px solid green;
+}
+#left_menu {
+	margin: 5px;
+	border: 3px solid blue;
+	-webkit-box-flex: 1;
+}
+#left_menu_header{
+	padding: 5px;
+	font: bold 14px Verdana, Geneva, sans-serif;
+}
+#left_menu_header h2{
+	padding: 5px;
+	font-size: 24px;
+}
+#left_nav_list{
+	
+}
+#left_nav_list li {
+	display: block;
+	list-style: none;
+	color: #ff002a;
+	font:bold 14px Tahoma;
+	text-align: center;
+}
+#left_nav_list a.btn {
+	width: 80px;
+	background-color: #00ff66;
+	color: #3333ff;
+	font:bold 14px Tahoma;
+	padding: 10px;
+	margin-bottom:15px;
+}
+#left_nav_list a.btn:hover {background-color:#FF0000;
+	color:#ffffff;
+	width: 110px;
+	padding: 9px;
+	font:bold 16px Tahoma;
+}
+#main_gallery {
+	margin-right: auto;
+	border: 3px solid blue;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+}
+#main_gallery h1 {
+	font:bold 25px Tahoma;
+	margin: 10px;
+	margin: 10px;
+	margin-left : 15px;
+}
+.gallery_product_container {
+	margin: 0px;
+	max-width: 1400px;		/* not using height as it takes automatically */
+	margin: 10px 10px 10px 10px;
+	border: 2px solid red;
+	display: -webkit-box;
+	background-color: white;
+	-webkit-box-orient: horizontal;
+}
+.gallery_product_container{
+	border: 5px dashed blue;
+}
+.gallery_product_container>form>div{
+	display: inline-block;
+	width: 200px;
+	float: left;
+	margin: 10px;
+	padding-right: 0;
+	border: 4px solid transparent;
+	-webkit-box-flex: 1;
+}
+
+.thumbnail {
+	
+}
+.thumbnail:hover{
+	border: 4px solid #ff8c00;
+}
+.thumbnail>div{
+	font: normal 14px Verdana, Geneva, sans-serif;
+	color: blue;
+	width: 180px;
+}
+span.product_price{
+	font-weight: bold;
+	color: red;
+}
+.thumbnail img {
+	height: 200px;
+	width: 100px;
+	border: 1px solid white;
+	-webkit-transition: -webkit-transform .8s;
+}
+.thumbnail img:hover {
+	-webkit-transform: scale(1.5,1.5);
+}
+.buy_btn{
+	display: block;
+	background: #00ff00;
+	font: bold 20px calibri;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	padding: 10px;
+	border: 2px solid #00ff00;
+	border-radius: 5px;
+}
+a.buy_btn:hover{
+	text-decoration: none;
+	border: 2px solid #ff2200;
+	background: #ff2200;
+}

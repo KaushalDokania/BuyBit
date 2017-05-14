@@ -1,0 +1,36 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+#left_menu{
+	backgroound: yellow;
+	width: 170px;
+	float: left;
+	border: 5px solid red;
+}
+#left_menu header{
+	background: #00CC66;
+}
+#left_menu ul{
+	background: white;
+	padding: 5px 0px 5px 0px;
+}
+#left_menu ul li{
+	list-style: none;
+	font: bold 15px verdana;
+}
+#left_menu li a{
+	background: #DDDDDD;
+	display: block;
+	border-radius: 2px;
+	padding: 5px;
+}
+#left_menu li a:hover{
+	font: bold 19px tahoma;
+	border: 1px solid white;
+}	
+#left_menu li a:hover:after{
+	content:">";
+	float: right;
+}

@@ -1,0 +1,58 @@
+#page_div{
+	border: 5px solid blue;
+	width: 1340px;
+	height: 500px;
+	margin: auto;
+}
+#side_menu{
+	//border: 5px solid red;
+	width: 30%;
+	padding-bottom: 30px;
+	float: left;	
+}
+#side_menu a{
+	display: block;
+	font: bold 24px arial;
+	color: white;
+	text-decoration: none;
+	margin-top: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 25px;
+	border-radius: 10px;
+	background: #09C;
+}
+#side_menu a:hover{
+	background: #C00;
+}
+
+#profile_container_div{
+	//border: 5px solid green;
+	width: 70%;
+	height: 470px;
+	display: inline-block;
+}
+#div1{
+	//border: 2px solid red;
+}
+#div1 div{
+	width: 50%;
+	float: left;
+	text-align: center;
+	//border: 2px solid green;
+}
+#div1>div a{
+	display: block-inline;
+	font: bold 24px arial;
+	color: white;
+	text-decoration: none;
+	margin-top: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 35px;
+	border-radius: 10px;
+	background: #09C;
+}
+#div1>div a:hover{
+	background: #C00;
+}
